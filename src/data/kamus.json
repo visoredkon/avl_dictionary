@@ -1,0 +1,24 @@
+{
+    "kamus": [
+        ["komputer", "alat komputasi"],
+        ["buku", "kumpulan halaman yang dijilid"],
+        ["mobil", "kendaraan bermotor roda empat"],
+        ["rumah", "tempat tinggal"],
+        ["sepeda", "alat transportasi beroda dua"],
+        ["pohon", "tumbuhan tinggi berkayu"],
+        ["kucing", "hewan mamalia peliharaan"],
+        ["meja", "perabotan untuk menaruh barang"],
+        ["televisi", "alat elektronik untuk menonton gambar dan suara"],
+        ["sepatu", "alas kaki"],
+        ["tas", "alat untuk membawa barang"],
+        ["kursi", "perabotan untuk duduk"],
+        ["bola", "alat untuk bermain"],
+        ["pakaian", "pakaian yang dikenakan"],
+        ["makanan", "bahan yang dimakan"],
+        ["minuman", "cairan yang diminum"],
+        ["kompor", "alat untuk memasak"],
+        ["jendela", "bukaan pada dinding untuk cahaya dan udara"],
+        ["pintu", "bukaan untuk masuk dan keluar"],
+        ["lampu", "alat untuk penerangan"]
+    ]
+}
