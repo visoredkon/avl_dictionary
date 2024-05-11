@@ -35,10 +35,10 @@ for _ in range(3):
     print(f"Total keys: {total_keys}\n")
 
     bst_search_time = test_search_speed(bst, keys_to_search)
-    print(f"Waktu pencarian BST: {bst_search_time}")
+    print(f"Waktu pencarian BST: {bst_search_time}ms")
 
     avl_search_time = test_search_speed(avl, keys_to_search)
-    print(f"Waktu pencarian AVL Tree: {avl_search_time}\n")
+    print(f"Waktu pencarian AVL Tree: {avl_search_time}ms\n")
 
     print(
         "draw"

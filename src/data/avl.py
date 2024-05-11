@@ -1,7 +1,7 @@
 from data.kamus import kamus
-from DataStructure.AVLTree.AVL import AVLTree
+from DataStructure.AVLTree.AVL import AVL
 
-avl = AVLTree()
+avl = AVL()
 
 for key, value in kamus:
     avl.insert(key, value)
