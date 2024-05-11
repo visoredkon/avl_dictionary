@@ -1,7 +1,7 @@
 from DataStructure.AVLTree.Node import Node
 
 
-class AVLTree:
+class AVL:
     def __init__(self):
         self.root = None
 
