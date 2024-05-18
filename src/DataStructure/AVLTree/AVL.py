@@ -137,3 +137,33 @@ class AVL:
         y.height = 1 + max(self.__get_height(y.left), self.__get_height(y.right))
 
         return y
+
+    def print_tree(self):
+        lines = self.__print_tree(self.root, 0, "root")
+        for line in lines:
+            print(line)
+
+    def __print_tree(self, node, level, pos):
+        if node is None:
+            return []
+
+        line = []
+        prefix = "    " * level
+
+        if level > 0:
+            if pos == "left":
+                prefix += "└── L: "
+            elif pos == "right":
+                prefix += "└── R: "
+        else:
+            prefix += "Root: "
+
+        line.append(prefix + f"{node.key}({node.value})")
+
+        if node.left or node.right:
+            if node.right:
+                line.extend(self.__print_tree(node.right, level + 1, "right"))
+            if node.left:
+                line.extend(self.__print_tree(node.left, level + 1, "left"))
+
+        return line
